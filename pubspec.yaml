@@ -1,0 +1,27 @@
+name: laporkuy
+description: LaporKuy - E-Ticketing Helpdesk Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  image_picker: ^1.0.7
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.2
+  supabase_flutter: ^2.5.6
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
